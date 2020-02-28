@@ -8,7 +8,7 @@
     android:paddingLeft="@dimen/margin20"
     android:paddingRight="@dimen/margin20"
     android:padding="@dimen/margin20"
-    tools:context=".activity.BantuanActivity">
+    tools:context=".ui.activity.BantuanActivity">
 
     <WebView
         android:id="@+id/webView"

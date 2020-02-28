@@ -8,7 +8,7 @@ import android.view.animation.Animation;
 import android.view.animation.AnimationUtils;
 import android.widget.ImageView;
 
-import azuwaredison89.gmail.dinacom.activity.Main2Activity;
+import azuwaredison89.gmail.dinacom.ui.activity.Main2Activity;
 
 public class MainActivity extends AppCompatActivity {
 
