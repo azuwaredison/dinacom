@@ -12,8 +12,8 @@ import android.widget.SimpleAdapter;
 
 import java.util.ArrayList;
 import java.util.HashMap;
-
 import azuwaredison89.gmail.dinacom.R;
+import azuwaredison89.gmail.dinacom.model.Dokter;
 
 public class DaftarNamaDokterActivity extends AppCompatActivity {
 
@@ -21,6 +21,7 @@ public class DaftarNamaDokterActivity extends AppCompatActivity {
     protected ListAdapter adapter;
     SimpleAdapter Adapter;
     HashMap<String, String> map;
+
     ArrayList<HashMap<String, String>> mylist;
     String[] Pil;
     String[] Ltn;
@@ -31,19 +32,13 @@ public class DaftarNamaDokterActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_daftar_nama_dokter);
 
-        lv = (ListView) findViewById(R.id.list_view);
-
-        Pil = new String[] {"Dokter Mawang", "Dokter Yudis", "Dokter Alan", "Dokter Santo", "Dokter Lisa"};
-        Ltn = new String[] {"Jam Kerja : 08.00 - 12.00", "Jam Kerja : 13.00 - 17.00",
-                "Jam Kerja : 19.00 - 22.00", "Jam Kerja : 08.00 - 12.00", "Jam Kerja : 13.00 - 17.00"};
+        lv = findViewById(R.id.list_view);
 
         Gbr = new String[] {Integer.toString(R.drawable.unnamed),
                 Integer.toString(R.drawable.unnamed),
                 Integer.toString(R.drawable.unnamed),
                 Integer.toString(R.drawable.unnamed),
                 Integer.toString(R.drawable.unnamed) };
-
-        mylist = new ArrayList<HashMap<String,String>>();
 
         for (int i = 0; i < Pil.length; i++){
             map = new HashMap<String, String>();
@@ -58,14 +53,22 @@ public class DaftarNamaDokterActivity extends AppCompatActivity {
         lv.setAdapter(Adapter);
 
         lv.setOnItemClickListener(new AdapterView.OnItemClickListener() {
-            public void onItemClick(AdapterView<?> parent, View view,
-                                    int position, long id) {
-                String nama_negara=lv.getItemAtPosition(position).toString();
-                Intent intent= new Intent(getApplicationContext(),
-                        HargaDokterActivity.class);
+            public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
+                String nama =
+                Intent intent= new Intent(DaftarNamaDokterActivity.this, HargaDokterActivity.class);
                 startActivity(intent);
                 finish();
             }
         });
+    }
+
+    private ArrayList<Dokter> listDokter() {
+        ArrayList<Dokter> listDokter = new ArrayList<Dokter>();
+        listDokter.add(new Dokter("Dokter Mamang", "08.00 - 12.00"));
+        listDokter.add(new Dokter("Dokter Yudis", "13.00 - 15.00"));
+        listDokter.add(new Dokter("Dokter Alan", "19.00 - 22.00"));
+        listDokter.add(new Dokter("Dokter Santo", "08.00 - 12.00"));
+        listDokter.add(new Dokter("Dokter Lisa", "13.00 - 17.00"));
+        return listDokter;
     }
 }
