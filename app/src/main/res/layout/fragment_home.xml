@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragment.HomeFragment">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="@dimen/margin20">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/dokter"
+            android:textSize="@dimen/ukuranText"
+            android:textColor="@color/background"
+            android:layout_gravity="center"
+            android:textStyle="bold"/>
+    </LinearLayout>
+    <RelativeLayout
+        android:id="@+id/relatif1"
+        android:layout_width="390dp"
+        android:layout_height="200dp"
+        android:layout_marginTop="@dimen/margin50"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="20dp"
+        android:paddingLeft="@dimen/margin20"
+        android:paddingRight="@dimen/margin20"
+        android:background="@drawable/radius_putih">
+
+        <ViewFlipper
+            android:id="@+id/v_flipper1"
+            android:layout_width="match_parent"
+            android:layout_height="190dp"
+            android:layout_centerInParent="true"
+            android:background="@drawable/radius_putih"
+            android:layout_centerHorizontal="true">
+        </ViewFlipper>
+    </RelativeLayout>
+        <LinearLayout
+            android:layout_below="@id/relatif1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="30dp"
+            android:orientation="horizontal"
+            android:paddingLeft="@dimen/margin20"
+            android:paddingRight="@dimen/margin20">
+
+            <GridLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:columnCount="2">
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingRight="@dimen/margin20"
+                    android:paddingLeft="@dimen/margin20">
+
+                    <RelativeLayout
+                        android:id="@+id/relatif_dokter"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+
+                        <Button
+                            android:id="@+id/dokter"
+                            android:layout_width="150dp"
+                            android:layout_height="150dp"
+                            android:background="@drawable/unnamed"/>
+
+                        <TextView
+                            android:layout_below="@id/dokter"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerInParent="true"
+                            android:textColor="@color/hitam"
+                            android:text="@string/dokter1"/>
+                    </RelativeLayout>
+                    <RelativeLayout
+                        android:id="@+id/relatif_perawat"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true">
+
+                        <Button
+                            android:id="@+id/perawat"
+                            android:layout_width="150dp"
+                            android:layout_height="150dp"
+                            android:background="@drawable/unnamed"/>
+
+                        <TextView
+                            android:layout_below="@id/perawat"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerInParent="true"
+                            android:textColor="@color/hitam"
+                            android:text="@string/perawat"/>
+                    </RelativeLayout>
+                </RelativeLayout>
+            </GridLayout>
+        </LinearLayout>
+    </RelativeLayout>
+</FrameLayout>

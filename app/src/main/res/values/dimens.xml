@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="margin">5dp</dimen>
+    <dimen name="margin20">20dp</dimen>
+    <dimen name="width">10dp</dimen>
+    <dimen name="marginTop">10dp</dimen>
+    <dimen name="margin40">40dp</dimen>
+    <dimen name="margin30">30dp</dimen>
+    <dimen name="margin50">50dp</dimen>
+    <dimen name="marginRight">5dp</dimen>
+    <dimen name="margin100">100dp</dimen>
+    <dimen name="ukuranText">24sp</dimen>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="logo_w_h">100dp</dimen>
+    <dimen name="sizetext15">15sp</dimen>
+    <dimen name="sizeText30">30sp</dimen>
+</resources>

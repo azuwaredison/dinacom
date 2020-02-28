@@ -1,0 +1,73 @@
+<resources>
+    <string name="app_name">dinacom</string>
+
+    <string name="register">Register</string>
+    <string name="login">Login</string>
+    <string name="dokter">DokterKu</string>
+    <string name="username">Username</string>
+    <string name="email">Email</string>
+    <string name="pass">Password</string>
+    <string name="c_pass">Confir Password</string>
+    <string name="already">Sudah Punya Akun ?, Login</string>
+    <string name="nomor">No. Tlp</string>
+    <string name="noready">Belum Punya Akun ?, Daftar</string>
+    <string name="home">Home</string>
+    <string name="message">Pesan</string>
+    <string name="profil">Profil</string>
+    <string name="dokter1">Dokter</string>
+    <string name="perawat">Perawat</string>
+    <string name="inbox">INBOX</string>
+    <string name="dokter2">Pilih Dokter</string>
+    <string name="name">UserName</string>
+    <string name="edit">Edit Profil</string>
+    <string name="metode">Metode Pembayaran</string>
+    <string name="bantuan">Pusat Bantuan</string>
+    <string name="masukkan">Masukkan</string>
+    <string name="pengaturan">Pengaturan</string>
+    <string name="keluar">Keluar</string>
+    <string name="gigi">Dokter Gigi</string>
+    <string name="umum">Dokter Umum</string>
+    <string name="spesialis">Dokter Spesialis</string>
+    <string name="isi_dokter">Isi Data Pasien</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_main3">Main3Activity</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+
+    <!-- String Untuk Item Spinner -->
+    <string-array name="spinner">
+        <item>Pilih Jangka Waktu</item>
+        <item>1 Hari</item>
+        <item>2 Hari</item>
+        <item>3 Hari</item>
+        <item>4 Hari</item>
+        <item>5 Hari</item>
+    </string-array>
+
+    <!-- Daftar Data Pasien -->
+    <string name="alamat">Alamat</string>
+    <string name="umur">Umur / Usia</string>
+    <string name="tlpn">No. Telp</string>
+    <string name="berat">Berat Badan</string>
+    <string name="tinggi">Tinggi Badan</string>
+    <string name="keluhan">Keluhan</string>
+    <string name="biaya">Total Biaya : </string>
+    <string name="nama">Nama</string>
+    <string name="lanjut">Lanjutkan</string>
+
+    <string name="penyakit_dalam">Penyakit Dalam</string>
+    <string name="tht"> Penyakit THT</string>
+    <string name="mata">Penyakit Mata</string>
+
+    <!-- Daftar Nama Dokter Dan Perawat -->
+    <string name="nama_dokter">Pilih Nama Dokter</string>
+    <string name="nama_perawat">Pilih Nama Perawat</string>
+    <string name="pilih">Dokter yang dipilih  :</string>
+    <string name="jenis">Jenis Penyakit   :</string>
+    <string name="pilih2">Perawat yang dipilh :</string>
+
+
+</resources>

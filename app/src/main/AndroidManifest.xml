@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:dist="http://schemas.android.com/apk/distribution"
+    package="azuwaredison89.gmail.dinacom">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <dist:module dist:instant="true" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        android:usesCleartextTraffic="true">
+        <activity android:name=".percobaan.percobaanActivity"></activity>
+        <activity android:name=".model.NextActivity" />
+        <activity android:name=".model.CobaActivity" />
+        <activity android:name=".activity.PembayaranPerawatActivity" />
+        <activity android:name=".activity.PembayaranDokterActivity" />
+        <activity android:name=".activity.ProfilActivity" />
+        <activity android:name=".activity.BantuanActivity" />
+        <activity android:name=".data.HargaDokterActivity" />
+        <activity android:name=".activity.PengaturanActivity" />
+        <activity android:name=".puskesmas.DaftarNamaPerawatActivity" />
+        <activity android:name=".puskesmas.DaftarNamaDokterActivity" />
+        <activity android:name=".data.DataPerawatActivity" />
+        <activity android:name=".data.DataDokterActivity" />
+        <activity android:name=".puskesmas.PerawatActivity" />
+        <activity android:name=".puskesmas.DokterActivity" />
+        <activity android:name=".activity.DashboardActivity" />
+        <activity android:name=".activity.LoginActivity" />
+        <activity android:name=".activity.RegisterActivity" />
+        <activity android:name=".activity.Main2Activity" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

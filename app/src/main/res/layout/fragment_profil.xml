@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragment.ProfilFragment">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:id="@+id/linearprofil"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin20"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/dokter"
+                android:textSize="@dimen/ukuranText"
+                android:textColor="@color/background"
+                android:layout_gravity="center"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_below="@id/linearprofil"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="@dimen/margin20"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingRight="@dimen/margin20"
+                android:paddingLeft="@dimen/margin20"
+                android:padding="@dimen/width"
+                android:orientation="vertical">
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/margin30"
+                    android:background="@drawable/radius_putih">
+
+                    <Button
+                        android:id="@+id/profil"
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:padding="5dp"
+                        android:background="@null"
+                        android:text="@string/profil"
+                        android:textColor="@color/hitam"/>
+                </com.google.android.material.textfield.TextInputLayout>
+                <com.google.android.material.textfield.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/margin30"
+                    android:background="@drawable/radius_putih">
+
+                    <Button
+                        android:id="@+id/metode"
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:padding="5dp"
+                        android:text="@string/metode"
+                        android:background="@null"
+                        android:textColor="@color/hitam"/>
+                </com.google.android.material.textfield.TextInputLayout>
+                <com.google.android.material.textfield.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/margin30"
+                    android:background="@drawable/radius_putih">
+
+                    <Button
+                        android:id="@+id/pengaturan"
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:padding="5dp"
+                        android:background="@null"
+                        android:text="@string/pengaturan"
+                        android:textColor="@color/hitam"/>
+                </com.google.android.material.textfield.TextInputLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </RelativeLayout>
+</FrameLayout>

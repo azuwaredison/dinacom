@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.Main2Activity">
+
+    <RelativeLayout
+        android:id="@+id/relatif"
+        android:layout_width="match_parent"
+        android:layout_height="230dp"
+        android:layout_marginTop="@dimen/margin20"
+        android:layout_marginBottom="20dp"
+        android:paddingLeft="@dimen/margin20"
+        android:paddingRight="@dimen/margin20">
+
+        <ViewFlipper
+            android:id="@+id/v_flipper"
+            android:layout_width="match_parent"
+            android:layout_height="230dp"
+            android:layout_centerHorizontal="true">
+        </ViewFlipper>
+    </RelativeLayout>
+    <TextView
+        android:id="@+id/text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/dokter"
+        android:layout_centerInParent="true"
+        android:textSize="@dimen/ukuranText"
+        android:layout_below="@id/relatif"
+        android:textStyle="bold"
+        android:textColor="@color/background" />
+
+    <RelativeLayout
+        android:layout_below="@id/text"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="@dimen/width"
+        android:paddingLeft="@dimen/margin20"
+        android:paddingRight="@dimen/margin20"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btn_register"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:text="@string/register"
+            android:textColor="@color/putih"
+            android:background="@drawable/radius"
+            android:layout_marginTop="150dp"/>
+
+        <Button
+            android:id="@+id/btn_login"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="150dp"
+            android:layout_alignParentRight="true"
+            android:background="@drawable/radius"
+            android:text="@string/login"
+            android:textColor="@color/putih" />
+    </RelativeLayout>
+
+</RelativeLayout>
