@@ -19,10 +19,6 @@ import org.json.JSONObject;
 import java.util.HashMap;
 
 import azuwaredison89.gmail.dinacom.R;
-import azuwaredison89.gmail.dinacom.api.PrefManager;
-import azuwaredison89.gmail.dinacom.api.RequestHandler;
-import azuwaredison89.gmail.dinacom.api.URLS;
-import azuwaredison89.gmail.dinacom.api.User;
 import azuwaredison89.gmail.dinacom.ui.activity.register.RegisterActivity;
 
 public class LoginActivity extends AppCompatActivity {
@@ -41,115 +37,8 @@ public class LoginActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_login);
-
-        btn_register3 = findViewById(R.id.btn_register3);
-        ed_email = findViewById(R.id.ed_email);
-        ed_password = findViewById(R.id.ed_password);
-
-     /*   if (PrefManager.getInstance(this).isLoggedIn()) {
-            finish();
-            startActivity(new Intent(this, DashboardActivity.class));
-        }  */
-
-        sharedPreferences = getSharedPreferences(MY_PREFERENCES, Context.MODE_PRIVATE);
-
-        status = sharedPreferences.getBoolean(STATUS, false);
-
-        if (status){
-            finish();
-            Intent intent = new Intent(LoginActivity.this, DashboardActivity.class);
-            startActivity(intent);
-        }
-
-        btn_register3.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent j = new Intent(LoginActivity.this, RegisterActivity.class);
-                startActivity(j);
-                finish();
-            }
-        });
     }
 
-    public void login(View view){
-        final String email = ed_email.getText().toString();
-        final String password = ed_password.getText().toString();
-
-        if(email.isEmpty()|| password.isEmpty()){
-            Toast.makeText(this, "Data Wajib Diisi", Toast.LENGTH_SHORT).show();
-        }
-
-   /*     if (TextUtils.isEmpty(email)) {
-            ed_email.setError("Silahkan Masukkan Email");
-            ed_email.requestFocus();
-            return;
-        }
-
-        if (TextUtils.isEmpty(password)) {
-            ed_password.setError("Silahkan Masukkan Password");
-            ed_password.requestFocus();
-        } */
-
-        else {
-            class Login extends AsyncTask<Void, Void, String> {
-                ProgressDialog pdLoading = new ProgressDialog(LoginActivity.this);
-                @Override
-                protected void onPreExecute() {
-                    super.onPreExecute();
-
-                    //this method will be running on UI thread
-                    pdLoading.setMessage("\tLoading...");
-                    pdLoading.setCancelable(false);
-                    pdLoading.show();
-                }
-
-                @Override
-                protected String doInBackground(Void... voids) {
-                    //creating request handler object
-                    RequestHandler requestHandler = new RequestHandler();
-
-                    //creating request parameters
-                    HashMap<String, String> params = new HashMap<>();
-                    params.put("email", email);
-                    params.put("password", password);
-
-                    //returing the response
-                    return requestHandler.sendPostRequest(URL_LOGIN, params);
-                }
-
-                @Override
-                protected void onPostExecute(String s) {
-                    super.onPostExecute(s);
-                    pdLoading.dismiss();
-                    try {
-                        //converting response to json object
-                        JSONObject obj = new JSONObject(s);
-                        //if no error in response
-                        if (!obj.getBoolean("error")) {
-                            String username = obj.getString("username");
-
-                            SharedPreferences.Editor editor = sharedPreferences.edit();
-                            editor.putString(USERNAME, username);
-                            editor.putString(EMAIL, email);
-                            editor.putBoolean(STATUS, true);
-                            editor.apply();
-
-                            finish();
-                            Toast.makeText(getApplicationContext(), obj.getString("message"), Toast.LENGTH_LONG).show();
-                            Intent intent = new Intent(LoginActivity.this, DashboardActivity.class);
-                            startActivity(intent);
-                        }
-                    } catch (JSONException e) {
-                        e.printStackTrace();
-                        Toast.makeText(LoginActivity.this, "Exception: " + e, Toast.LENGTH_LONG).show();
-                    }
-                }
-            }
-
-            Login login = new Login();
-            login.execute();
-        }
-    }
 
     public void register(View view){
         finish();

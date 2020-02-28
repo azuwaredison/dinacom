@@ -1,5 +1,7 @@
 //noinspection NotInterpolated
 apply plugin: 'com.android.application'
+apply plugin: 'kotlin-android-extensions'
+apply plugin: 'kotlin-android'
 apply plugin: 'com.google.gms.google-services'
 
 android {
@@ -48,4 +50,10 @@ dependencies {
         // Add the midtrans repository into the list of repositories
         maven { url "http://dl.bintray.com/pt-midtrans/maven" }
     }
+    implementation 'androidx.core:core-ktx:1.1.0'
+    implementation "androidx.lifecycle:lifecycle-viewmodel-ktx:2.2.0"
+    implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlin_version"
+}
+repositories {
+    mavenCentral()
 }

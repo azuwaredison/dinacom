@@ -8,7 +8,6 @@ import android.view.View;
 import android.widget.Button;
 
 import azuwaredison89.gmail.dinacom.R;
-import azuwaredison89.gmail.dinacom.api.PrefManager;
 
 public class PengaturanActivity extends AppCompatActivity {
 
@@ -43,7 +42,7 @@ public class PengaturanActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 finish();
-                PrefManager.getInstance(getApplicationContext()).logout();
+//                PrefManager.getInstance(getApplicationContext()).logout();
             }
         });
     }

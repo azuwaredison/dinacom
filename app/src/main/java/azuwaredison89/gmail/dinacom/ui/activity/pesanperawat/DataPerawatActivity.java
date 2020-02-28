@@ -8,7 +8,6 @@ import android.view.View;
 import android.widget.Button;
 
 import azuwaredison89.gmail.dinacom.R;
-import azuwaredison89.gmail.dinacom.model.CobaActivity;
 
 public class DataPerawatActivity extends AppCompatActivity {
 
@@ -24,8 +23,6 @@ public class DataPerawatActivity extends AppCompatActivity {
         lanjutkan_perawat.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(DataPerawatActivity.this, CobaActivity.class);
-                startActivity(intent);
             }
         });
     }

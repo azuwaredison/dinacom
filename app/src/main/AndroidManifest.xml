@@ -18,15 +18,23 @@
         <activity android:name=".ui.activity.pesanperawat.DaftarNamaPerawatActivity" />
         <activity android:name=".ui.activity.pesandokter.DaftarNamaDokterActivity" />
         <activity android:name=".ui.activity.pesanperawat.DataPerawatActivity" />
+        <activity android:name=".ui.activity.Main2Activity" />
 
-        <activity android:name=".puskesmas.PerawatActivity" />
-        <activity android:name=".ui.activity.pesandokter.DokterActivity" />
-        <activity android:name=".MainActivity">
+
+
+        <activity android:name=".ui.activity.pesandokter.DokterActivity" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+        </activity>
+        <activity android:name=".MainActivity">
+<!--            <intent-filter>-->
+<!--                <action android:name="android.intent.action.MAIN" />-->
+
+<!--                <category android:name="android.intent.category.LAUNCHER" />-->
+<!--            </intent-filter>-->
         </activity>
         <activity android:name=".ui.activity.pesandokter.DataDokterActivity" />
         <activity android:name=".ui.activity.home.DashboardActivity" />
