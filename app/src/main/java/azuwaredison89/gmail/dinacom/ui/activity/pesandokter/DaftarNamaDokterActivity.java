@@ -54,7 +54,7 @@ public class DaftarNamaDokterActivity extends AppCompatActivity {
 
         lv.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
-                String nama =
+//                String nama =
                 Intent intent= new Intent(DaftarNamaDokterActivity.this, HargaDokterActivity.class);
                 startActivity(intent);
                 finish();

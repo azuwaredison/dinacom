@@ -30,6 +30,7 @@
         </activity>
         <activity android:name=".ui.activity.pesandokter.DataDokterActivity" />
         <activity android:name=".ui.activity.home.DashboardActivity" />
+        <activity android:name=".ui.activity.register.RegisterActivity" />
     </application>
 
 </manifest>
