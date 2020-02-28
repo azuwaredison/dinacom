@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "367764255055",
+    "firebase_url": "https://dinacomcare.firebaseio.com",
+    "project_id": "dinacomcare",
+    "storage_bucket": "dinacomcare.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:367764255055:android:2a9ca2dc2289a1d78e153a",
+        "android_client_info": {
+          "package_name": "azuwaredison89.gmail.dinacom"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "367764255055-b0l5rc5e0oiqt52a2g3f1gngc6976p9p.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "azuwaredison89.gmail.dinacom",
+            "certificate_hash": "fbbb5c3382120c0c200fe0e99237adab9756c0a3"
+          }
+        },
+        {
+          "client_id": "367764255055-68966iu8pukl7dr2fgm4jbguv13n1uho.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDc4FE88MMRYNx5V-1EWAVIsX3xf91ObVs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "367764255055-68966iu8pukl7dr2fgm4jbguv13n1uho.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

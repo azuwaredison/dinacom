@@ -1,14 +1,14 @@
 <component name="libraryTable">
   <library name="Gradle: com.github.bumptech.glide:volley-integration:1.5.0@aar">
     <CLASSES>
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/2beecc7aa963dee738021416e6fe428f/volley-integration-1.5.0/jars/classes.jar!/" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/2beecc7aa963dee738021416e6fe428f/volley-integration-1.5.0/res" />
+      <root url="jar://$PROJECT_DIR$/../.gradle/caches/transforms-2/files-2.1/04dfd578c6c1aad498cd9364dc8ee86f/volley-integration-1.5.0/jars/classes.jar!/" />
+      <root url="file://$PROJECT_DIR$/../.gradle/caches/transforms-2/files-2.1/04dfd578c6c1aad498cd9364dc8ee86f/volley-integration-1.5.0/res" />
     </CLASSES>
     <JAVADOC>
-      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.bumptech.glide/volley-integration/1.5.0/1ece44d90c338fdc6dea118ba796376f72a69868/volley-integration-1.5.0-javadoc.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../.gradle/caches/modules-2/files-2.1/com.github.bumptech.glide/volley-integration/1.5.0/1ece44d90c338fdc6dea118ba796376f72a69868/volley-integration-1.5.0-javadoc.jar!/" />
     </JAVADOC>
     <SOURCES>
-      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.bumptech.glide/volley-integration/1.5.0/4e8874e36850cc373a884050f26c910ef3140261/volley-integration-1.5.0-sources.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../.gradle/caches/modules-2/files-2.1/com.github.bumptech.glide/volley-integration/1.5.0/4e8874e36850cc373a884050f26c910ef3140261/volley-integration-1.5.0-sources.jar!/" />
     </SOURCES>
   </library>
 </component>
