@@ -13,13 +13,11 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
         android:usesCleartextTraffic="true">
+        <activity android:name=".ui.activity.pesanperawat.DetailPesanPerawatActivity"></activity>
         <activity android:name=".ui.activity.pesandokter.HargaDokterActivity" />
-
         <activity android:name=".ui.activity.pesanperawat.DaftarNamaPerawatActivity" />
         <activity android:name=".ui.activity.pesandokter.DaftarNamaDokterActivity" />
         <activity android:name=".ui.activity.pesanperawat.DataPerawatActivity" />
-
-        <activity android:name=".puskesmas.PerawatActivity" />
         <activity android:name=".ui.activity.pesandokter.DokterActivity" />
         <activity android:name=".MainActivity">
             <intent-filter>
@@ -31,6 +29,7 @@
         <activity android:name=".ui.activity.pesandokter.DataDokterActivity" />
         <activity android:name=".ui.activity.home.DashboardActivity" />
         <activity android:name=".ui.activity.register.RegisterActivity" />
+        <activity android:name=".ui.activity.login.LoginActivity" />
     </application>
 
 </manifest>

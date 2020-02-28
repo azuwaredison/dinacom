@@ -1,8 +1,8 @@
 <component name="libraryTable">
   <library name="Gradle: com.github.bumptech.glide:volley-integration:1.5.0@aar">
     <CLASSES>
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/2beecc7aa963dee738021416e6fe428f/volley-integration-1.5.0/jars/classes.jar!/" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/2beecc7aa963dee738021416e6fe428f/volley-integration-1.5.0/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/1c88e289f029fc0c5abeb400b35c0919/volley-integration-1.5.0/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/1c88e289f029fc0c5abeb400b35c0919/volley-integration-1.5.0/res" />
     </CLASSES>
     <JAVADOC>
       <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.bumptech.glide/volley-integration/1.5.0/1ece44d90c338fdc6dea118ba796376f72a69868/volley-integration-1.5.0-javadoc.jar!/" />

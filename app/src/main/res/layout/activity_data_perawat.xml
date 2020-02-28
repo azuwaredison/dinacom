@@ -101,20 +101,12 @@
             <com.google.android.material.textfield.TextInputLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content">
-
-                <RadioGroup
+                <EditText
+                    android:id="@+id/data_jangka_waktu"
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content">
-
-                    <Spinner
-                        android:id="@+id/spinner"
-                        android:layout_marginTop="@dimen/width"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:entries="@array/spinner"
-                        />
-
-                </RadioGroup>
+                    android:layout_height="wrap_content"
+                    android:inputType="number"
+                    android:hint="Jangka Waktu"/>
             </com.google.android.material.textfield.TextInputLayout>
             <com.google.android.material.textfield.TextInputLayout
                 android:layout_width="match_parent"
