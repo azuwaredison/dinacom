@@ -7,7 +7,6 @@ import android.os.Bundle;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.fragment.app.Fragment;
-import androidx.fragment.app.FragmentManager;
 
 import android.view.LayoutInflater;
 import android.view.View;
@@ -27,13 +26,7 @@ public class HomeFragment extends Fragment {
 
     private ViewFlipper viewFlipper;
 
-    FragmentManager fragmentManager;
-    private int gallery_grid_Images[] = {R.drawable.dokter, R.drawable.perawat, R.drawable.dokter1};
-
-    public static HomeFragment newInstance() {
-        HomeFragment fragment = new HomeFragment();
-        return fragment;
-    }
+    private int[] gallery_grid_Images = {R.drawable.dokter, R.drawable.perawat, R.drawable.dokter1};
 
     @Override
     public void onCreate(@Nullable Bundle savedInstanceState) {

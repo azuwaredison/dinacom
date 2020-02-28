@@ -7,54 +7,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f54ab0a4-1456-4ee1-974a-c7302b74fa0e" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/azuwaredison89/gmail/dinacom/MainActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/azuwaredison89/gmail/dinacom/MainActivity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/azuwaredison89/gmail/dinacom/activity/BantuanActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/azuwaredison89/gmail/dinacom/ui/activity/BantuanActivity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/azuwaredison89/gmail/dinacom/activity/DashboardActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/azuwaredison89/gmail/dinacom/ui/activity/home/DashboardActivity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/azuwaredison89/gmail/dinacom/activity/LoginActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/azuwaredison89/gmail/dinacom/ui/activity/login/LoginActivity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/azuwaredison89/gmail/dinacom/activity/Main2Activity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/azuwaredison89/gmail/dinacom/ui/activity/Main2Activity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/azuwaredison89/gmail/dinacom/activity/PembayaranDokterActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/azuwaredison89/gmail/dinacom/ui/activity/PembayaranDokterActivity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/azuwaredison89/gmail/dinacom/activity/PembayaranPerawatActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/azuwaredison89/gmail/dinacom/ui/activity/PembayaranPerawatActivity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/azuwaredison89/gmail/dinacom/activity/PengaturanActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/azuwaredison89/gmail/dinacom/ui/activity/PengaturanActivity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/azuwaredison89/gmail/dinacom/activity/ProfilActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/azuwaredison89/gmail/dinacom/ui/activity/ProfilActivity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/azuwaredison89/gmail/dinacom/activity/RegisterActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/azuwaredison89/gmail/dinacom/ui/activity/register/RegisterActivity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/azuwaredison89/gmail/dinacom/api/PrefManager.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/azuwaredison89/gmail/dinacom/api/RequestHandler.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/azuwaredison89/gmail/dinacom/api/URLS.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/azuwaredison89/gmail/dinacom/api/User.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/azuwaredison89/gmail/dinacom/data/DataDokterActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/azuwaredison89/gmail/dinacom/ui/activity/pesandokter/DataDokterActivity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/azuwaredison89/gmail/dinacom/data/DataPerawatActivity.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/azuwaredison89/gmail/dinacom/data/HargaDokterActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/azuwaredison89/gmail/dinacom/ui/activity/pesandokter/HargaDokterActivity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/azuwaredison89/gmail/dinacom/fragment/HomeFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/azuwaredison89/gmail/dinacom/ui/fragment/HomeFragment.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/azuwaredison89/gmail/dinacom/fragment/PesanFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/azuwaredison89/gmail/dinacom/ui/fragment/PesanFragment.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/azuwaredison89/gmail/dinacom/fragment/ProfilFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/azuwaredison89/gmail/dinacom/ui/fragment/ProfilFragment.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/azuwaredison89/gmail/dinacom/model/CobaActivity.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/azuwaredison89/gmail/dinacom/model/CustomeAdapter.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/azuwaredison89/gmail/dinacom/model/EditModel.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/azuwaredison89/gmail/dinacom/model/NextActivity.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/azuwaredison89/gmail/dinacom/percobaan/percobaanActivity.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/azuwaredison89/gmail/dinacom/puskesmas/DaftarNamaDokterActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/azuwaredison89/gmail/dinacom/ui/activity/pesandokter/DaftarNamaDokterActivity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/azuwaredison89/gmail/dinacom/puskesmas/DaftarNamaPerawatActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/azuwaredison89/gmail/dinacom/ui/activity/pesanperawat/DaftarNamaPerawatActivity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/azuwaredison89/gmail/dinacom/puskesmas/DokterActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/azuwaredison89/gmail/dinacom/ui/activity/pesandokter/DokterActivity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/azuwaredison89/gmail/dinacom/puskesmas/PerawatActivity.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_bantuan.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_bantuan.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_daftar_nama_dokter.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_daftar_nama_dokter.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_daftar_nama_perawat.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_daftar_nama_perawat.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_dashboard.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_dashboard.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_data_dokter.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_data_dokter.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_data_perawat.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_data_perawat.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_dokter.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_dokter.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_harga_dokter.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_harga_dokter.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_login.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_login.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_main2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_main2.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_pembayaran_dokter.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_pembayaran_dokter.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_pembayaran_perawat.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_pembayaran_perawat.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_pengaturan.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_pengaturan.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_profil.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_profil.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_register.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_register.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_home.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_home.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_pesan.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_pesan.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_profil.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_profil.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/azuwaredison89/gmail/dinacom/ui/activity/home/DashboardActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/azuwaredison89/gmail/dinacom/ui/activity/home/DashboardActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/azuwaredison89/gmail/dinacom/ui/fragment/HomeFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/azuwaredison89/gmail/dinacom/ui/fragment/HomeFragment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/azuwaredison89/gmail/dinacom/ui/fragment/PesanFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/azuwaredison89/gmail/dinacom/ui/fragment/PesanFragment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/azuwaredison89/gmail/dinacom/ui/fragment/ProfilFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/azuwaredison89/gmail/dinacom/ui/fragment/ProfilFragment.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -99,50 +55,21 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/azuwaredison89/gmail/dinacom/ui/activity/home/DashboardActivity.java">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/azuwaredison89/gmail/dinacom/ui/fragment/HomeFragment.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="646">
-              <caret line="47" column="29" selection-start-line="47" selection-start-column="29" selection-end-line="47" selection-end-column="29" />
+            <state relative-caret-position="-83">
+              <caret line="28" column="100" selection-start-line="28" selection-start-column="100" selection-end-line="28" selection-end-column="100" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#1071#2039#0" expanded="true" />
-                <element signature="e#2038#2039#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/azuwaredison89/gmail/dinacom/ui/fragment/HomeFragment.java">
+        <entry file="file://$PROJECT_DIR$/app/build.gradle">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="278">
-              <caret line="34" column="24" lean-forward="true" selection-start-line="34" selection-start-column="24" selection-end-line="34" selection-end-column="24" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#2016#2160#0" expanded="true" />
-                <element signature="e#2159#2160#0" expanded="true" />
-                <element signature="e#1832#1979#0" expanded="true" />
-                <element signature="e#1978#1979#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/azuwaredison89/gmail/dinacom/ui/fragment/PesanFragment.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/azuwaredison89/gmail/dinacom/ui/fragment/ProfilFragment.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="23" column="13" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
-            </state>
+            <state relative-caret-position="-392" />
           </provider>
         </entry>
       </file>
@@ -176,6 +103,8 @@
         <option value="$PROJECT_DIR$/app/src/main/java/azuwaredison89/gmail/dinacom/ui/activity/pesanperawat/DaftarNamaPerawatActivity.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/azuwaredison89/gmail/dinacom/ui/activity/home/DashboardActivity.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/azuwaredison89/gmail/dinacom/ui/fragment/HomeFragment.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/azuwaredison89/gmail/dinacom/ui/fragment/PesanFragment.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/azuwaredison89/gmail/dinacom/ui/fragment/ProfilFragment.java" />
       </list>
     </option>
   </component>
@@ -408,6 +337,10 @@
               <item name="res" type="d4f16f75:AndroidResFolderNode" />
               <item name="menu" type="ddeffd01:AndroidResFolderTypeNode" />
             </path>
+            <path>
+              <item name="dinacom" type="1abcf292:AndroidViewProjectNode" />
+              <item name="Gradle Scripts" type="ae0cef3a:AndroidBuildScriptsGroupNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -416,6 +349,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="android.sdk.path" value="$USER_HOME$/AppData/Local/Android/Sdk" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../../RackSpira Presensi/Aplikasi Fork" />
     <property name="settings.editor.selected.configurable" value="AndroidSdkUpdater" />
@@ -828,6 +762,35 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/azuwaredison89/gmail/dinacom/ui/fragment/PesanFragment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="24" column="4" selection-start-line="24" selection-start-column="4" selection-end-line="24" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/azuwaredison89/gmail/dinacom/ui/fragment/ProfilFragment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="291">
+          <caret line="18" selection-start-line="18" selection-end-line="18" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/azuwaredison89/gmail/dinacom/ui/activity/home/DashboardActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="782">
+          <caret line="46" lean-forward="true" selection-start-line="46" selection-end-line="46" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1071#2039#0" expanded="true" />
+            <element signature="e#2038#2039#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_perawat.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
@@ -839,44 +802,19 @@
       </provider>
       <provider editor-type-id="android-designer2" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/azuwaredison89/gmail/dinacom/ui/activity/home/DashboardActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="646">
-          <caret line="47" column="29" selection-start-line="47" selection-start-column="29" selection-end-line="47" selection-end-column="29" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1071#2039#0" expanded="true" />
-            <element signature="e#2038#2039#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/azuwaredison89/gmail/dinacom/ui/fragment/PesanFragment.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/azuwaredison89/gmail/dinacom/ui/fragment/ProfilFragment.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="23" column="13" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/azuwaredison89/gmail/dinacom/ui/fragment/HomeFragment.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="278">
-          <caret line="34" column="24" lean-forward="true" selection-start-line="34" selection-start-column="24" selection-end-line="34" selection-end-column="24" />
+        <state relative-caret-position="-83">
+          <caret line="28" column="100" selection-start-line="28" selection-start-column="100" selection-end-line="28" selection-end-column="100" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#2016#2160#0" expanded="true" />
-            <element signature="e#2159#2160#0" expanded="true" />
-            <element signature="e#1832#1979#0" expanded="true" />
-            <element signature="e#1978#1979#0" expanded="true" />
           </folding>
         </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-392" />
       </provider>
     </entry>
   </component>

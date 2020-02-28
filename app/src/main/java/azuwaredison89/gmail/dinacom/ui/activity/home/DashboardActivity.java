@@ -9,7 +9,7 @@ import android.os.Bundle;
 import android.view.MenuItem;
 
 import com.google.android.material.bottomnavigation.BottomNavigationView;
-
+import azuwaredison89.gmail.dinacom.ui.fragment.*;
 import azuwaredison89.gmail.dinacom.R;
 
 public class DashboardActivity extends AppCompatActivity {
@@ -19,33 +19,38 @@ public class DashboardActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_dashboard);
 
-        BottomNavigationView bottomNavigationView = (BottomNavigationView) findViewById(R.id.nav_bottom);
+        BottomNavigationView bottomNavigationView = findViewById(R.id.nav_bottom);
         bottomNavigationView.setOnNavigationItemSelectedListener(new BottomNavigationView.OnNavigationItemSelectedListener() {
             @Override
             public boolean onNavigationItemSelected(@NonNull MenuItem item) {
                 Fragment selectedFragment = null;
                 switch (item.getItemId()) {
                     case R.id.nav_home:
-                        selectedFragment = HomeFragment.newInstance();
+                        selectedFragment = new HomeFragment();
                         break;
                     case R.id.nav_pesan:
-                        selectedFragment = PesanFragment.newInstance();
+                        selectedFragment = new PesanFragment();
                         break;
                     case R.id.nav_profil:
-                        selectedFragment = ProfilFragment.newInstance();
+                        selectedFragment = new ProfilFragment();
                         break;
                 }
+
                 FragmentTransaction transaction = getSupportFragmentManager().beginTransaction();
-                transaction.replace(R.id.fl_container, selectedFragment);
-                transaction.commit();
+                if (selectedFragment != null) {
+                    transaction.replace(R.id.fl_container, selectedFragment);
+                    transaction.commit();
+                }
                 return true;
             }
         });
 
         //Manually displaying the first fragment - one time only
-        FragmentTransaction transaction = getSupportFragmentManager().beginTransaction();
-        transaction.replace(R.id.fl_container, HomeFragment.newInstance());
-        transaction.commit();
+        if (savedInstanceState == null) {
+            FragmentTransaction transaction = getSupportFragmentManager().beginTransaction();
+            transaction.replace(R.id.fl_container, new HomeFragment());
+            transaction.commit();
+        }
     }
 }
 

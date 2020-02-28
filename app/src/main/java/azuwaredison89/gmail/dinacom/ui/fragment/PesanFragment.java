@@ -17,35 +17,10 @@ import azuwaredison89.gmail.dinacom.R;
  */
 public class PesanFragment extends Fragment {
 
-    Button kembali, hapus;
-
-
-    public PesanFragment() {
-        // Required empty public constructor
-    }
-
-    public static PesanFragment newInstance() {
-        PesanFragment fragment = new PesanFragment();
-        return fragment;
-    }
-
-
     @Override
-    public View onCreateView(LayoutInflater inflater, ViewGroup container,
-                             Bundle savedInstanceState) {
+    public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
         // Inflate the layout for this fragment
-        View r =  inflater.inflate(R.layout.fragment_pesan, container, false);
-
-        kembali = (Button) r.findViewById(R.id.kembali);
-        hapus = (Button) r.findViewById(R.id.hapus);
-
-        kembali.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-
-            }
-        });
-
-        return r;
+        return inflater.inflate(R.layout.fragment_pesan, container, false);
     }
+
 }
