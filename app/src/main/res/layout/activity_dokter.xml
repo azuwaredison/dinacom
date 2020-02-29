@@ -8,7 +8,7 @@
     tools:context=".ui.activity.pesandokter.DokterActivity">
 
     <com.google.android.material.appbar.AppBarLayout
-        android:id="@+id/appbarListMember"
+        android:id="@+id/appbarListCategoryDoctor"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:background="@color/background"
@@ -16,7 +16,7 @@
         app:layout_constraintTop_toTopOf="parent">
 
         <androidx.appcompat.widget.Toolbar
-            android:id="@+id/toolbarListMember"
+            android:id="@+id/toolbarListCategoryDoctor"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:background="@color/background"
@@ -37,6 +37,6 @@
         android:layout_height="wrap_content"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/appbarListMember"/>
+        app:layout_constraintTop_toBottomOf="@+id/appbarListCategoryDoctor"/>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
