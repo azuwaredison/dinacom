@@ -1,14 +1,14 @@
 package azuwaredison89.gmail.dinacom.ui.activity;
 
-import androidx.appcompat.app.AppCompatActivity;
-
 import android.os.Bundle;
 import android.widget.TextView;
 
+import androidx.appcompat.app.AppCompatActivity;
+
 import azuwaredison89.gmail.dinacom.R;
-import azuwaredison89.gmail.dinacom.api.PrefManager;
-import azuwaredison89.gmail.dinacom.api.RequestHandler;
-import azuwaredison89.gmail.dinacom.api.User;
+//import azuwaredison89.gmail.dinacom.api.PrefManager;
+//import azuwaredison89.gmail.dinacom.api.RequestHandler;
+//import azuwaredison89.gmail.dinacom.api.User;
 
 public class ProfilActivity extends AppCompatActivity {
     TextView tv_nama, textViewId, textViewUsername;
@@ -33,9 +33,9 @@ public class ProfilActivity extends AppCompatActivity {
         } */
 
 
-        User user = PrefManager.getInstance(this).getUser();
-        tv_nama = findViewById(R.id.tv_nama);
-        tv_nama.setText(user.getUsername());
+//        User user = PrefManager.getInstance(this).getUser();
+//        tv_nama = findViewById(R.id.tv_nama);
+//        tv_nama.setText(user.getUsername());
     }
 }
       //  btn_foto = (Button) findViewById(R.id.btn_foto);

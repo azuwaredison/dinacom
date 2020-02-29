@@ -12,36 +12,35 @@ import com.google.firebase.database.DatabaseError
 import com.google.firebase.database.FirebaseDatabase
 import com.google.firebase.database.ValueEventListener
 import kotlinx.android.synthetic.main.activity_daftar_nama_perawat.*
-import java.util.*
+
 
 class DaftarNamaPerawatActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_daftar_nama_perawat)
-
-        recyclerViewPerawat.apply {
-            layoutManager = LinearLayoutManager(this@DaftarNamaPerawatActivity)
-            setHasFixedSize(true)
-            adapter = ListPerawatAdapter(getDataPerawat())
-        }
+        getDataPerawat()
     }
 
-    private fun getDataPerawat(): ArrayList<Perawat> {
-            val listPerawat = ArrayList<Perawat>()
-            val db = FirebaseDatabase.getInstance()
-            val rf = db.getReference("Perawat")
-            rf.addValueEventListener(object : ValueEventListener {
-                override fun onCancelled(p0: DatabaseError) {
-                    Toast.makeText(this@DaftarNamaPerawatActivity, "Failed Load Data Perawat", Toast.LENGTH_SHORT).show()
-                }
+    private fun getDataPerawat() {
+        val listPerawat = ArrayList<Perawat>()
+        val db = FirebaseDatabase.getInstance()
+        val rf = db.getReference("Perawat")
+        rf.addValueEventListener(object : ValueEventListener {
+            override fun onCancelled(p0: DatabaseError) {
+                Toast.makeText(this@DaftarNamaPerawatActivity, "Failed Load Data Perawat", Toast.LENGTH_SHORT).show()
+            }
 
-                override fun onDataChange(dataSnapshot: DataSnapshot) {
-                    for (snap in dataSnapshot.children) {
-                        val perawat = snap.getValue(Perawat::class.java)!!
-                        listPerawat.add(perawat)
+            override fun onDataChange(dataSnapshot: DataSnapshot) {
+                for (snap in dataSnapshot.children) {
+                    val perawat = snap.getValue(Perawat::class.java)!!
+                    listPerawat.add(perawat)
+                    recyclerViewPerawat.apply {
+                        layoutManager = LinearLayoutManager(this@DaftarNamaPerawatActivity)
+                        setHasFixedSize(true)
+                        adapter = ListPerawatAdapter(listPerawat)
                     }
                 }
-            })
-            return listPerawat
-        }
+            }
+        })
+    }
 }

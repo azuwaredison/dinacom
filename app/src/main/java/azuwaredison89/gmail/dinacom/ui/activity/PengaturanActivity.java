@@ -1,14 +1,14 @@
 package azuwaredison89.gmail.dinacom.ui.activity;
 
-import androidx.appcompat.app.AppCompatActivity;
-
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
+import androidx.appcompat.app.AppCompatActivity;
+
 import azuwaredison89.gmail.dinacom.R;
-import azuwaredison89.gmail.dinacom.api.PrefManager;
+//import azuwaredison89.gmail.dinacom.api.PrefManager;
 
 public class PengaturanActivity extends AppCompatActivity {
 
@@ -43,7 +43,7 @@ public class PengaturanActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 finish();
-                PrefManager.getInstance(getApplicationContext()).logout();
+//                PrefManager.getInstance(getApplicationContext()).logout();
             }
         });
     }

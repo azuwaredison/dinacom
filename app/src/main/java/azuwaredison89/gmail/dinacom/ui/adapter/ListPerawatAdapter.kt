@@ -8,7 +8,7 @@ import azuwaredison89.gmail.dinacom.R
 import azuwaredison89.gmail.dinacom.model.Perawat
 import kotlinx.android.synthetic.main.list_nama_perawat.view.*
 
-class ListPerawatAdapter(private val listPerawat: List<Perawat>) : RecyclerView.Adapter<ListPerawatAdapter.ViewHolder>() {
+class ListPerawatAdapter(private val listPerawat: ArrayList<Perawat>) : RecyclerView.Adapter<ListPerawatAdapter.ViewHolder>() {
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): ViewHolder {
         return ViewHolder(LayoutInflater.from(parent.context).inflate(R.layout.list_nama_perawat, parent, false))
@@ -24,7 +24,7 @@ class ListPerawatAdapter(private val listPerawat: List<Perawat>) : RecyclerView.
         fun bindData(perawat: Perawat) {
             with(itemView) {
                 textViewNamaPerawat.text = perawat.nama
-                textViewJadwalPerawat.text = perawat.jadwal
+                textViewJadwalPerawat.text = perawat.ojadwal
             }
         }
     }

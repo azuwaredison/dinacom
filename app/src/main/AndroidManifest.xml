@@ -19,6 +19,7 @@
         <activity android:name=".ui.activity.pesandokter.DaftarNamaDokterActivity" />
         <activity android:name=".ui.activity.pesanperawat.DataPerawatActivity" />
         <activity android:name=".ui.activity.pesandokter.DokterActivity" />
+        <activity android:name=".ui.activity.Main2Activity" />
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
