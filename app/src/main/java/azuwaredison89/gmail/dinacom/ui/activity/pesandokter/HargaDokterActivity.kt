@@ -30,38 +30,37 @@ class HargaDokterActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_harga_dokter)
 
-//        getListDoctorHarga()
+        getListDoctorHarga()
 
     }
 
-//    fun getListDoctorHarga() {
-//        val idcategory = intent.getStringExtra("categoryDocter") as String
-//        val idDoctor = intent.getStringExtra("idDocter") as String
-//
-//        val database = FirebaseDatabase.getInstance()
-//        val ref = database.getReference("specific_category_doctor").child("79d8c39e-5a4b-11ea-8e2d-0242ac130003")
-//        val listDocter = mutableListOf<SpecificCategoryDoctor>()
-//        ref.addValueEventListener(object : ValueEventListener {
-//            override fun onDataChange(p0: DataSnapshot) {
-//                listDocter.clear()
-//                for (snap in p0.children) {
-//                    val user = snap.getValue(SpecificCategoryDoctor::class.java)
-//                    user?.let {
-//                    }
-//                }
-//
+    fun getListDoctorHarga() {
+        val idcategory = intent.getStringExtra("categoryDocter") as String
+        val idDoctor = intent.getStringExtra("idDocter") as String
+
+        val database = FirebaseDatabase.getInstance()
+        val ref = database.getReference("specific_category_doctor").child("79d8c39e-5a4b-11ea-8e2d-0242ac130003")
+        val listDocter = mutableListOf<SpecificCategoryDoctor>()
+        ref.addValueEventListener(object : ValueEventListener {
+            override fun onDataChange(p0: DataSnapshot) {
+                listDocter.clear()
+                for (snap in p0.children) {
+                    val user = snap.getValue(SpecificCategoryDoctor::class.java)!!
+                    listDocter.add(user)
+                }
+
 //                Log.d("apacok", listDocter[1].name)
-//
-//                val adapter = AdapterListHargaDocter(this@HargaDokterActivity, idDoctor, idcategory, listDocter as ArrayList<SpecificCategoryDoctor>)
-//                recyclerViewPilihPenyakit.layoutManager = LinearLayoutManager(this@HargaDokterActivity, RecyclerView.VERTICAL, false)
-//                recyclerViewPilihPenyakit.adapter = adapter
-//                adapter.notifyDataSetChanged()
-////                view.onSuccess(listMember)
-//            }
-//
-//            override fun onCancelled(p0: DatabaseError) {
-////                view.onFailed(p0.message)
-//            }
-//        })
-//    }
+
+                val adapter = AdapterListHargaDocter(this@HargaDokterActivity, idDoctor, idcategory, listDocter as ArrayList<SpecificCategoryDoctor>)
+                recyclerViewPilihPenyakit.layoutManager = LinearLayoutManager(this@HargaDokterActivity, RecyclerView.VERTICAL, false)
+                recyclerViewPilihPenyakit.adapter = adapter
+                adapter.notifyDataSetChanged()
+//                view.onSuccess(listMember)
+            }
+
+            override fun onCancelled(p0: DatabaseError) {
+//                view.onFailed(p0.message)
+            }
+        })
+    }
 }
