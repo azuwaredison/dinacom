@@ -6,27 +6,21 @@ import android.widget.TextView;
 import androidx.appcompat.app.AppCompatActivity;
 
 import azuwaredison89.gmail.dinacom.R;
+<<<<<<< HEAD
 //import azuwaredison89.gmail.dinacom.api.PrefManager;
 //import azuwaredison89.gmail.dinacom.api.RequestHandler;
 //import azuwaredison89.gmail.dinacom.api.User;
+=======
+>>>>>>> c97c377032d91fb7242c95c7f98daec27c850dba
 
 public class ProfilActivity extends AppCompatActivity {
-    TextView tv_nama, textViewId, textViewUsername;
- /*   private StringRequest stringRequest;
-    private Bitmap bitmap;
-    private Button btn_foto;
-    private static String TAG = ProfilActivity.class.getSimpleName();
-    private static String URL_UPLOAD = "http://192.168.100.8/dashboard/user_mysql/upload.php";
-    String getId;
-    CircularImageView profile_image; */
-
-
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_profil);
 
+<<<<<<< HEAD
    /*     if (!PrefManager.getInstance(this).isLoggedIn()) {
             finish();
             startActivity(new Intent(this, ProfilActivity.class));
@@ -121,14 +115,9 @@ public class ProfilActivity extends AppCompatActivity {
         };
         RequestQueue requestQueue = Volley.newRequestQueue(this);
         requestQueue.add(stringRequest);
+=======
+>>>>>>> c97c377032d91fb7242c95c7f98daec27c850dba
     }
 
-    private String getStringImage(Bitmap bitmap) {
-        ByteArrayOutputStream byteArrayOutputStream = new ByteArrayOutputStream();
-        bitmap.compress(Bitmap.CompressFormat.JPEG, 100, byteArrayOutputStream);
+}
 
-        byte[] imageByteArray = byteArrayOutputStream.toByteArray();
-        String encodedImage = Base64.encodeToString(imageByteArray, Base64.DEFAULT);
-
-        return encodedImage;
-} */
