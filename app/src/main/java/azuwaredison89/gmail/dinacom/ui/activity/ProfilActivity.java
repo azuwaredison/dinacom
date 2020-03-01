@@ -6,12 +6,9 @@ import android.widget.TextView;
 import androidx.appcompat.app.AppCompatActivity;
 
 import azuwaredison89.gmail.dinacom.R;
-<<<<<<< HEAD
 //import azuwaredison89.gmail.dinacom.api.PrefManager;
 //import azuwaredison89.gmail.dinacom.api.RequestHandler;
 //import azuwaredison89.gmail.dinacom.api.User;
-=======
->>>>>>> c97c377032d91fb7242c95c7f98daec27c850dba
 
 public class ProfilActivity extends AppCompatActivity {
 
@@ -20,7 +17,6 @@ public class ProfilActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_profil);
 
-<<<<<<< HEAD
    /*     if (!PrefManager.getInstance(this).isLoggedIn()) {
             finish();
             startActivity(new Intent(this, ProfilActivity.class));
@@ -115,9 +111,7 @@ public class ProfilActivity extends AppCompatActivity {
         };
         RequestQueue requestQueue = Volley.newRequestQueue(this);
         requestQueue.add(stringRequest);
-=======
->>>>>>> c97c377032d91fb7242c95c7f98daec27c850dba
     }
 
-}
+}*/
 

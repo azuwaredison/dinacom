@@ -8,10 +8,7 @@ import android.widget.Button;
 import androidx.appcompat.app.AppCompatActivity;
 
 import azuwaredison89.gmail.dinacom.R;
-<<<<<<< HEAD
 //import azuwaredison89.gmail.dinacom.api.PrefManager;
-=======
->>>>>>> c97c377032d91fb7242c95c7f98daec27c850dba
 
 public class PengaturanActivity extends AppCompatActivity {
 

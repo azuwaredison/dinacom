@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
       <module fileurl="file://$PROJECT_DIR$/dinacom.iml" filepath="$PROJECT_DIR$/dinacom.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/dinacom-app.iml" filepath="$PROJECT_DIR$/app/dinacom-app.iml" />
     </modules>
   </component>
 </project>

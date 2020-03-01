@@ -63,5 +63,5 @@ class HargaDokterActivity : AppCompatActivity() {
 ////                view.onFailed(p0.message)
 //            }
 //        })
-    }
+//    }
 }
