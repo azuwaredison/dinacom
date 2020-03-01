@@ -10,6 +10,16 @@ import kotlinx.android.synthetic.main.list_nama_perawat.view.*
 
 class ListPerawatAdapter(private val listPerawat: ArrayList<Perawat>) : RecyclerView.Adapter<ListPerawatAdapter.ViewHolder>() {
 
+    private lateinit var onItemCallback: OnItemCallback
+
+    interface OnItemCallback {
+        fun onItemClicked(data: Perawat)
+    }
+
+    fun setOnClickCallback(onItemCallback: OnItemCallback){
+        this.onItemCallback = onItemCallback
+    }
+
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): ViewHolder {
         return ViewHolder(LayoutInflater.from(parent.context).inflate(R.layout.list_nama_perawat, parent, false))
     }
@@ -18,6 +28,7 @@ class ListPerawatAdapter(private val listPerawat: ArrayList<Perawat>) : Recycler
 
     override fun onBindViewHolder(holder: ViewHolder, position: Int) {
         holder.bindData(listPerawat[position])
+        holder.itemView.setOnClickListener { onItemCallback.onItemClicked(listPerawat[holder.adapterPosition]) }
     }
 
     class ViewHolder(itemView: View) : RecyclerView.ViewHolder(itemView) {

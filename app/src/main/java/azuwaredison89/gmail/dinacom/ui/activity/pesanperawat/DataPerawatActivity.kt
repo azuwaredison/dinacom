@@ -39,7 +39,7 @@ class DataPerawatActivity : AppCompatActivity() {
         val dataKeluhan = data_keluhan.text.toString().trim()
         val dataJangkaWaktuRawat = data_jangka_waktu.text.toString().trim().toInt()
 
-        val totalBiaya = 200000*dataJangkaWaktuRawat
+        val totalBiaya = 200000* dataJangkaWaktuRawat
         val totalBiayaRupiah = "Rp. $totalBiaya"
         total_biaya.text = totalBiayaRupiah
 

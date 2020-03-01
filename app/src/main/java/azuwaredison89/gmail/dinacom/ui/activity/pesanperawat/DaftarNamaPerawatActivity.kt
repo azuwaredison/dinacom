@@ -1,11 +1,13 @@
 package azuwaredison89.gmail.dinacom.ui.activity.pesanperawat
 
+import android.content.Intent
 import android.os.Bundle
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 import androidx.recyclerview.widget.LinearLayoutManager
 import azuwaredison89.gmail.dinacom.R
 import azuwaredison89.gmail.dinacom.model.Perawat
+import azuwaredison89.gmail.dinacom.ui.activity.pesanperawat.DataPerawatActivity.Companion.EXTRA_PERAWAT
 import azuwaredison89.gmail.dinacom.ui.adapter.ListPerawatAdapter
 import com.google.firebase.database.DataSnapshot
 import com.google.firebase.database.DatabaseError
@@ -37,7 +39,17 @@ class DaftarNamaPerawatActivity : AppCompatActivity() {
                     recyclerViewPerawat.apply {
                         layoutManager = LinearLayoutManager(this@DaftarNamaPerawatActivity)
                         setHasFixedSize(true)
-                        adapter = ListPerawatAdapter(listPerawat)
+                        adapter = ListPerawatAdapter(listPerawat).apply {
+                            setOnClickCallback(object : ListPerawatAdapter.OnItemCallback{
+                                override fun onItemClicked(data: Perawat) {
+                                    val intent =  Intent(this@DaftarNamaPerawatActivity, DataPerawatActivity::class.java).apply {
+                                        putExtra(EXTRA_PERAWAT, perawat.nama)
+                                    }
+                                    startActivity(intent)
+                                }
+
+                            })
+                        }
                     }
                 }
             }
